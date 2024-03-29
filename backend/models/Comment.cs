@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace backend.models
+namespace backend.Models
 {
     public class Comment
     {

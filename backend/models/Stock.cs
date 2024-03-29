@@ -4,7 +4,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace backend.models
+namespace backend.Models
 {
     public class Stock
     {
@@ -23,6 +23,6 @@ namespace backend.models
         public long MarketCap { get; set; }
 
         public List<Comment> Comments { get; set; } = [];
-        
+
     }
 }
